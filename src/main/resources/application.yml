@@ -1,0 +1,8 @@
+management:
+  metrics:
+    enable:
+      jvm: false
+
+spring:
+  main:
+    banner-mode: off
