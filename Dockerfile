@@ -8,7 +8,7 @@ ENV PATH="/opt/gradle/bin:${PATH}"
 WORKDIR /tmp/app
 COPY src /tmp/app/src
 COPY build.gradle.kts settings.gradle.kts /tmp/app/
-RUN gradle build
+RUN gradle bootJar
 
 WORKDIR /tmp/jar
 RUN jar xf /tmp/app/build/libs/spring-native-kotlin-demo-0.0.1-SNAPSHOT.jar

@@ -26,11 +26,6 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
-springAot {
-    removeSpelSupport.set(true)
-    removeYamlSupport.set(true)
-}
-
 tasks.compileKotlin {
     kotlinOptions {
         freeCompilerArgs = listOf("-Xjsr305=strict")
