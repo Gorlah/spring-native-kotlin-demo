@@ -1,4 +1,4 @@
-# Spring Native Kotlin Demo
+# Spring Native Kotlin Demo [![Docker](https://github.com/Gorlah/spring-native-kotlin-demo/actions/workflows/docker-build.yml/badge.svg)](https://github.com/Gorlah/spring-native-kotlin-demo/actions/workflows/docker-build.yml)
 
 This project leverages the `org.springframework.experimental.aot` plugin and GraalVM `native-image` to compile a Spring Boot Kotlin application to a native executable with a quick startup time.
 
